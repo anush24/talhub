@@ -1,0 +1,150 @@
+@charset "utf-8";
+body{
+	width:1350px;
+	height:585px;
+	margin:0;
+	padding:0;
+	
+	}
+.container{
+	width:1350px;
+	height:585px;
+	margin:0;
+	padding:0;
+	
+	}
+.Header_Section{
+		width:1350px;
+		height:40px;
+		background-color:#36373e;
+}
+.Header_Section .logo{
+	width:123px;
+	height:34px;
+	color:white;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	
+	font-size:1.6em;
+	float:left;
+	letter-spacing:5px;
+	margin-left:65px;	
+}
+.Header_Section .menu{
+	width:607px;
+	height:33px;
+	float:right;
+	}
+.Header_Section ul{
+	width:647px;
+	height:33px;
+	float:right;
+	margin-top:2px;
+	
+}
+.Header_Section li{
+	list-style-type:none;
+
+	} 
+.Header_Section a{
+	width:2.8vm;
+	border-color: #e6ebed;
+	display:block;
+	font-size:15px;
+	color:#CDC5C5;
+	text-decoration:none;
+	text-align: center;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	float:left;	
+	margin-left:5px;
+	margin-top:4px;
+	}
+	.Header_Section span{
+	width:2vm;
+	height:32px;
+	float:left;
+	text-align:center;
+	padding-right:40px;
+}
+.Main_Section{
+	width:1350px;
+	height:550px;
+	border-color:red;
+	margin-top:5px;
+	background:url(images/bg.jpg);
+	background-size:1350px 550px;
+	background-repeat:no-repeat;
+
+}
+p{
+	padding:10px;
+	}
+.left{
+	margin-top:30px;
+	width:800px;
+	height:400px;
+	float:left;
+	margin-left:270px;
+	
+	}
+	.main_header{
+		font-family:trebuchet MS, helvetica, sans-serif;
+		color:white;
+		word-spacing:2px;
+		font-size:20px;
+		padding:5px;
+		}
+		.table td{
+			width:200px;
+			height:200px;
+			
+			} 
+		.main_header p{
+		font-family:trebuchet MS, helvetica, sans-serif;
+		color:black;
+		font-size:15px;
+		color:white;
+			
+			}
+
+.StyleTxtField{
+	border:1px solid #666;
+	width:200px;
+	height:30px;
+	font-family: Arial,helvetica, sans-serif;
+	padding-left:10px;
+	display:block;
+	
+	
+}
+.button_style{
+	width:116px;
+	height:36px;
+	background-color:black;
+	color:white;
+	font-family:Arial,helvetica,sans serif;
+	
+	}
+	.styleTxt{
+	width:200px;
+	height:30px;
+	font-family: Arial,helvetica, sans-serif;
+	color:white;
+	font-weight:lighter;
+	font-size:15px;
+	text-align:center;
+	
+}
+.Footer{
+	width:1350px;
+	height:30px;
+	max-width:100%;
+	background-color:#36373e;
+	margin-top:5px;
+	color:white;
+}
+.Footer #footer_left{
+	float:left;
+	margin-left:515px;
+}
+
+

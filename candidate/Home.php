@@ -1,0 +1,83 @@
+<?php 
+if (session_status() == PHP_SESSION_NONE) 
+{
+    session_start();
+    $_SESSION['run'] = '0';
+}
+
+echo "<!doctype html>\n";
+echo "<html>\n";
+echo "<head>\n";
+echo "<meta charset='utf-8'>\n";
+echo "<title>Home Page</title>\n";
+echo "<link rel='stylesheet' type='text/css' href='Home_Style.css'>\n";
+echo "</head>\n";
+echo "<body>\n";
+echo "<div class='container'>\n";
+echo "<div class='Header_Section'>\n";
+echo "<div class='logo'>TALHUB</div>\n";
+echo "<div class='menu'>\n";
+echo "<ul>\n";
+echo "<li><span><a href='Index1.html'>HOME</a></span></li>\n";
+echo "<li><span><a href='About.html'>ABOUT</a></span></li>\n";
+echo "<li><span><a href='Home.php'>CANDIDATES</a></span></li>\n";
+echo "<li><span><a href='contact.php'>CONTACT</a></span></li>\n";
+echo "<li><span><a href='Index1.html'>SIGN OUT</a></span></li>\n";
+echo "</ul>\n";
+echo "</ul>\n";
+echo "</div>\n";
+echo "</div>\n";
+echo "<div class='Main_Section'>\n";
+echo "<div id='client_credentials'>";
+echo "<form id='login_form' action='enter.php' name='login_form' method='post'>\n";
+echo "<div align='center' class='login_table'>\n";
+  echo "<table width='400' border='0'>\n";
+    echo "<tbody>\n";
+      echo "<tr>\n";
+        echo "<td>&nbsp;</td>\n";
+      echo "</tr>\n";
+      echo "<tr>\n";
+        echo "<td>&nbsp;</td>\n";
+      echo "</tr>\n";
+      echo "<tr>\n";
+        echo "<td><label for='username'></label>\n";
+          echo "<div align='center'>\n";
+            echo "<input name='username' type='text' class='StyleTxtField' id='username' placeholder='Username'>\n";
+          echo "</div>\n";
+        echo "</td>\n";
+      echo "</tr>\n";
+      echo "<tr>\n";
+        echo "<td>&nbsp;</td>\n";
+      echo "</tr>\n";
+      echo "<tr>\n";
+        echo "<td>&nbsp;</td>\n";
+      echo "</tr>\n";
+      echo "<tr>\n";
+        echo "<td><label for='password'></label>\n";
+          echo "<div align='center'>\n";
+            echo "<input name='password' type='password' class='StyleTxtField' id='password' placeholder='Password'>\n";
+        echo "</div></td>\n";
+        if($_SESSION['run'] == '1')
+        echo "<div id='tts'>'".$_SESSION['res']."'</div>\n";
+      echo "</tr>\n";
+      echo "<tr>\n";
+        echo "<td>&nbsp;</td>\n";
+      echo "</tr>\n";
+      echo "<tr>\n";
+        echo"<td><div align='center'>\n";
+          echo "<input name='submit_button' type='submit' class='button_style' id='submit_button' value='SIGN IN'>\n";
+        echo "</div></td>\n";
+      echo "</tr>\n";
+      echo "<tr>\n";
+        echo "<td><a href='seeker.php' id='acc'>New User?</a></td>\n";
+      echo "</tr>\n";
+      echo "</tbody>\n";
+    echo "</table>\n";
+  echo "</div>\n";
+echo "</form></div>\n";
+echo "</div>\n";
+echo "<div class='Footer'><span id='footer_left' text-align='center'>Copyright &#169; 2015 talHub | All Rights Reserved</span></div></div></div>\n";
+echo "</div>\n";
+echo "</body>\n";
+echo "</html>\n";
+?>

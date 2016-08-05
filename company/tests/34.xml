@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<quiz>
+	<questions>
+		<id>2</id>
+		<quesno>Which of the following SQL clauses is used to select data from 2 or more tables?</quesno>
+		<choicea>HAVING</choicea>
+		<choiceb>WHERE</choiceb>
+		<choicec>JOIN</choicec>
+		<choiced>AND</choiced>
+		<ans>JOIN</ans>
+	</questions>
+	<questions>
+		<id>5</id>
+		<quesno>What does the SQL FROM clause do?</quesno>
+		<choicea>Specifies a search condition.</choicea>
+		<choiceb>Specifies the columns we are retrieving</choiceb>
+		<choicec>Specifies the tables to retrieve rows from.</choicec>
+		<choiced>Specifies the tables to retrieve rows from</choiced>
+		<ans>Specifies the tables to retrieve rows from</ans>
+	</questions>
+</quiz>

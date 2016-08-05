@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<quiz>
+	<questions>
+		<id>4</id>
+		<quesno>The HAVING clause can be used only with ...</quesno>
+		<choicea>DELETE clause</choicea>
+		<choiceb>JOIN clause</choiceb>
+		<choicec>INSERT clause</choicec>
+		<choiced>SELECT clause</choiced>
+		<ans>SELECT clause</ans>
+	</questions>
+	<questions>
+		<id>5</id>
+		<quesno>What does the SQL FROM clause do?</quesno>
+		<choicea>Specifies a search condition.</choicea>
+		<choiceb>Specifies the columns we are retrieving</choiceb>
+		<choicec>Specifies the tables to retrieve rows from.</choicec>
+		<choiced>Specifies the tables to retrieve rows from</choiced>
+		<ans>Specifies the tables to retrieve rows from</ans>
+	</questions>
+</quiz>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<quiz>
+	<questions>
+		<id>3</id>
+		<quesno>Which SQL statement selects all rows from a table called Products and orders the result set by ProductID column?</quesno>
+		<choicea>SELECT * FROM Products ORDERED BY ProductID</choicea>
+		<choiceb>SELECT ProductID FROM Products</choiceb>
+		<choicec>SELECT * FROM Products WHERE ProductID &gt; 200</choicec>
+		<choiced>SELECT * FROM Products ORDER BY ProductID</choiced>
+		<ans>SELECT * FROM Products ORDER BY ProductID</ans>
+	</questions>
+	<questions>
+		<id>5</id>
+		<quesno>What does the SQL FROM clause do?</quesno>
+		<choicea>Specifies a search condition.</choicea>
+		<choiceb>Specifies the columns we are retrieving</choiceb>
+		<choicec>Specifies the tables to retrieve rows from.</choicec>
+		<choiced>Specifies the tables to retrieve rows from</choiced>
+		<ans>Specifies the tables to retrieve rows from</ans>
+	</questions>
+</quiz>

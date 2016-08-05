@@ -1,0 +1,149 @@
+@charset "utf-8";
+body{
+	width:1350px;
+	height:885px;
+	margin:0;
+	padding:0;
+	
+	}
+.container{
+	width:1350px;
+	height:885px;
+	margin:0;
+	padding:0;
+	
+	}
+.Header_Section{
+		width:1350px;
+		height:40px;
+		background-color:#36373e;
+}
+.Header_Section .logo{
+	width:123px;
+	height:34px;
+	color:white;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	text-transform:uppercase;
+	font-size:1.6em;
+	float:left;
+	letter-spacing:5px;
+	margin-left:65px;		
+}
+.Header_Section .menu{
+	width:707px;
+	height:33px;
+	float:right;
+	}
+.Header_Section ul{
+	width:747px;
+	height:33px;
+	float:right;
+	margin-top:2px;
+	
+}
+.Header_Section li{
+	list-style-type:none;
+
+	} 
+.Header_Section a{
+	width:2.8vm;
+	border-color: #e6ebed;
+	display:block;
+	font-size:15px;
+	color:#CDC5C5;
+	text-decoration:none;
+	text-align: center;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	float:left;	
+	margin-left:5px;
+	margin-top:4px;
+	}
+	.Header_Section span{
+	width:2vm;
+	height:32px;
+	float:left;
+	text-align:center;
+	padding-right:40px;
+}
+.Main_Section{
+	width:1350px;
+	height:835px;
+	border-color:red;
+	margin-top:5px;
+	background:url(images/steps.jpg);
+	background-size:1350px 850px;
+	background-repeat:no-repeat;
+	opacity:0.8;
+	position:absolute;
+}
+#client_credentials{
+	width:520px;
+	height:800px;
+	margin-left:30px;
+	float:left;
+	background-color:#000000;
+	opacity:0.8;
+	margin-top:35px;
+	position:relative;
+	}
+.StyleTxtField{
+	border:1px solid #666;
+	width:300px;
+	height:30px;
+	font-family: trebuchet MS, helvetica, sans-serif;
+	display:block;
+	color:black;
+	
+}
+#res
+{
+	color:red;
+	font-size:15px;
+}
+.button_style{
+	width:116px;
+	height:36px;
+	background-color:black;
+	color:white;
+	font-family:Arial,helvetica,sans serif;
+	
+	}
+	.styleTxt{
+	width:300px;
+	height:30px;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	font-weight:lighter;
+	color:white;
+	font-size:15px;
+	
+}
+.skills{
+	border:1px solid #666;
+	width:300px;
+	height:100px;
+	font-family: trebuchet MS, helvetica, sans-serif;
+	display:block;
+	color:black;
+}
+.desc_style{
+	width:300px;
+	height:80px;
+	border:1px solid #666;
+	font-family: trebuchet MS, helvetica, sans-serif;
+	float:left;
+	display:inline-block;
+	}
+.Footer{
+	width:1350px;
+	height:30px;
+	max-width:100%;
+	background-color:#36373e;
+	margin-top:1px;
+	color:white;
+}
+.Footer #footer_left{
+	float:left;
+	font-size: 15px;
+	text-align: center;
+	margin-left: 500px;
+}

@@ -1,0 +1,251 @@
+@charset "utf-8";
+body{
+	width:1350px;
+	height:585px;
+	margin:0;
+	padding:0;
+	
+	}
+.container{
+	width:1350px;
+	height:585px;
+	margin:0;
+	padding:0;
+	
+	}
+.Header_Section{
+		width:1350px;
+		height:40px;
+		background-color:#36373e;
+}
+.Header_Section .logo{
+	width:123px;
+	height:34px;
+	color:white;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	
+	font-size:1.6em;
+	float:left;
+	letter-spacing:5px;
+	margin-left:65px;	
+}
+.Header_Section .menu{
+	width:507px;
+	height:33px;
+	float:right;
+	}
+.Header_Section ul{
+	width:547px;
+	height:33px;
+	float:right;
+	margin-top:2px;
+	margin-right:-70px;
+	
+}
+.Header_Section li{
+	list-style-type:none;
+
+	} 
+.Header_Section a{
+	width:3.8vm;
+	border-color: #e6ebed;
+	display:block;
+	font-size:15px;
+	color:#CDC5C5;
+	text-decoration:none;
+	text-align: center;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	float:left;	
+	margin-top:4px;
+	}
+	.Header_Section span{
+	width:2vm;
+	height:32px;
+	float:left;
+	text-align:center;
+	padding-right:40px;
+}
+.Main_Section{
+	width:1350px;
+	height:560px;
+	border-color:red;
+	margin-top:5px;
+}
+.side_panel{
+	width:300px;
+	height:545px;
+	border-color:grey;
+	background:url(images/bg.jpg);
+	background-size: 300px 545px;
+	background-repeat:no-repeat;
+	opacity:0.4;
+	float:left;
+    filter: alpha(opacity=40);
+	
+	}
+	.main_panel{
+	width:1044px;
+	height:545px;
+	border-color:black;
+	float:right;
+	background:url(images/bg.jpg);
+	background-size: 1044px 545px;
+	background-repeat:no-repeat;
+	opacity:0.8;
+	float:left;
+    filter: alpha(opacity=40);
+	margin-left:3px;
+	}
+		.main_panel .greetings{
+		/*width:150px;
+		height:30px;*/
+		font-family:trebuchet MS, helvetica, sans-serif;
+		color:white;
+		font-size:15px;
+		float:right;
+		border-style:solid;
+		margin-right:50px;
+		margin-top:10px;
+		
+		
+		}
+	#events{
+	margin-top: 30px;
+	margin-left:220px;
+	height:45px;
+	width:57%;
+	/*background-color:grey;*/
+	float:left;
+	display:inline-block;
+	/*box-shadow: 2px 2px 2px grey, 0 0 2px grey;*/
+}
+#events span{
+	font-size:24px;
+	color:white;
+	margin-left:130px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration:none;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	/*font-weight:bold;*/
+
+}
+#choosedate
+{
+	display:inline-block;
+	float:left;
+	margin-left: 320px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+#buts{
+	height:25px;
+	width:90px;
+}
+#DisplayDiv{
+	max-height:350px;
+	display:inline-block;
+	overflow:auto;
+	/*border:3px solid black;
+	border-radius: 10px;*/
+	margin-left:130px;
+	width:800px;
+}
+.testdata1
+{
+	float:left;
+	
+	width:74%;
+	height:20px;
+	display:inline-block;
+	margin-top:20px;
+	margin-left:92px;
+	background-color:#A8A8A8;
+	/*padding:8px;*/
+}
+
+.testdata1 span{
+	font-weight:bold;
+	font-size:18px;
+	color:black;
+	margin-left:100px;
+	text-align: center;
+	text-decoration:none;
+	font-family:trebuchet MS, helvetica, sans-serif;
+
+}
+
+.testinfo1
+{
+	float:left;
+	margin-top:10px;
+	width:74%;
+	height:60px;
+	display:inline-block;
+	margin-left:92px;
+	background-color:#D8D8D8 ;
+	
+	
+}
+
+.testinfo1 span{
+	font-size:16px;
+	color:black;
+	text-align: center;
+	text-decoration:none;
+	font-family:trebuchet MS, helvetica, sans-serif;
+}
+
+#testing1{
+	margin-top:4px;
+	height: 30px;
+	width: 90px;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight:bold;
+	font-family:trebuchet MS, helvetica, sans-serif;
+	display:inline-block;
+	float:left;
+	margin-left:250px;
+	border:1px solid black;
+}
+.StyleTxtField{
+	border:1px solid #666;
+	width:200px;
+	height:30px;
+	font-family: Arial,helvetica, sans-serif;
+	padding-left:10px;
+	display:block;
+	
+}
+.button_style{
+	width:116px;
+	height:36px;
+	background-color:black;
+	color:white;
+	font-family:Arial,helvetica,sans serif;
+	
+	}
+	.styleTxt{
+	width:200px;
+	height:30px;
+	font-family: Arial,helvetica, sans-serif;
+	color:#000000;
+	font-weight:lighter;
+	font-size:15px;
+	
+}
+.Footer{
+	width:1350px;
+	height:30px;
+	max-width:100%;
+	background-color:#36373e;
+	margin-top:-10px;
+	color:white;
+	
+}
+
+.Footer span{
+	float:left;
+	margin-left:535px;
+	}

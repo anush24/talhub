@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<link rel="stylesheet" type="text/css" href="Index1_style.css" >
+<script language="JavaScript" type="text/JavaScript"> 
+var image= new Array()
+image[0] = 'images/image1.jpg'; 
+image[1] = 'images/Image2.png'; 
+image[2] = 'images/img3.jpg';
+image[3] = 'images/img4.jpg';  
+var time = 2000; 
+var i=1; 
+function slideI(){ 
+document.getElementById('Main_images').setAttribute('src',image[i]); 
+i++; 
+if(i==image.length){i=0} 
+setTimeout('slideI()',time); 
+} 
+onload=function(){setTimeout('slideI()',time)} 
+</script> 
+</head>
+<body>
+<div class="container">
+<div class="Header_Section">
+<div class="logo">TALHUB</div>
+<div class="menu">
+<ul>
+<li><span><a href="Index1.html">HOME</a></span></li>
+<li><span><a href="About.html">ABOUT</a></span></li>
+<li><span><a href="candidate/Home.php">CANDIDATE</a></span></li>
+<li><span><a href="company/login.php">CLIENT</a></span></li>
+<li><span><a href="contact.php">CONTACT</a></span></li>
+</ul>
+</div>
+</div>
+<img id="Main_images" src="images/image1.jpg">
+<div class="Footer"><span id="footer_left" text-align="center">Copyright &#169; 2015 talHub | All Rights Reserved</span></div>
+
+</body>
+</html>
